@@ -81,7 +81,7 @@ tag2='<a href="/?'+tag1+'">'+tags[k]+'</a>'
 disdata +=tag2+'<div class="flex flex-wrap items-center my-4"><img src="'+imgUrl[k]+'" alt="'+seoTitle[k]+'" class="w-24 h-24 md:w-32 md:h-32 object-cover shadow-lg rounded my-2 mr-6"><div class="flex-1"><h2 class="font-medium"><a href="/?product,'+productId[k]+'" class="hover:text-pink-600">'+seoTitle[k]+'</a></h2><div><span class="inline-block font-medium text-sm text-white rounded bg-pink-600 my-2 py-0.5 px-2">'+price[k]+'</span></div></div></div>'
 }
 
-document.getElementById("demo1").innerHTML =disdata + "10 disdata"
+document.getElementById("content").innerHTML =disdata + "10 disdata"
 
 
 }
