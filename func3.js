@@ -83,7 +83,6 @@ disdata +=tag2+'<div class="flex flex-wrap items-center my-4"><img src="'+imgUrl
 
 document.getElementById("demo1").innerHTML =disdata + "10 disdata"
 
-//document.getElementById("content")[0].innerHTML =disdata
 
 }
 
